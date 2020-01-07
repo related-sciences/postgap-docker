@@ -45,6 +45,7 @@ python POSTGAP.py --disease autism --debug \
 
 # Using stats export from https://www.ebi.ac.uk/gwas/studies/GCST007400
 # (takes ~5 hrs!)
+# Also, needed https://github.com/Ensembl/postgap/issues/157 to get this to run
 python POSTGAP.py --debug \
 --database_dir=/home/postgap/data/ensembl/postgap/downloads/databases \
 --summary_stats=/home/postgap/data/ensembl/postgap/input/postgap_GCST007400.tsv \
