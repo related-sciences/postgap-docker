@@ -52,3 +52,7 @@ python POSTGAP.py --debug \
 ```
 
 ## Notebooks
+
+The [notebooks](notebooks) show examples of:
+1. What happens to outputs when you run postgap with the same inputs
+2. How to generate postgap-compatible inputs from GWAS catalog exports
